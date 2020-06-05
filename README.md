@@ -1,5 +1,5 @@
 # AbusiveLanguageDetectionInTurkish
-Automatic Detection and Analysis of Abusive Language in Turkish Texts
+Türkçe Metinlerde Kaba İfadelerin Otomatik Tespiti ve Analizi (Automatic Detection and Analysis of Abusive Language in Turkish Texts)
 
 Tez Konusu Amacı*: Kullanıcılar tarafından oluşturulan web içerikleri internetin büyük bir bilgi kaynağı haline gelmesinin yanı sıra çeşitli problemlerin oluşmasına da zemin hazırlamıştır. Bu içeriklerin kontrol edilmesi ve toplum üzerinde olumsuz etkilere yol açan sanal zorbalık, küfür, hakaret ve nefret söylemlerinin tespit edilmesi büyük önem kazanmıştır.
 
