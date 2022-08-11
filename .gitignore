@@ -1,0 +1,14 @@
+/ALD_WebSite/ALD_System1
+/ALD_WebSite/ALD_System2
+/AllData
+/Models
+/SCR
+best_model_state_rand_epoch13.bin
+false_preds.txt
+offenseval2020-turkish.zip
+/offenseval2020-turkish/
+offenseval_tr_test_data.pk
+predictior_lines.txt
+twitter-ws.rar
+/twitter-ws
+*.bin

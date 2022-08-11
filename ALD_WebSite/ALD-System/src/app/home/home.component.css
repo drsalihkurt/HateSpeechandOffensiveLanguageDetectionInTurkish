@@ -1,0 +1,15 @@
+.card {
+  height: auto;
+}
+
+.card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-body {
+  padding: 2rem;
+  text-align: center;
+}
+

@@ -1,0 +1,7 @@
+sudo FLASK_APP=main.py nohup /home/salih/.virtualenvs/tweet-ws/bin/python3.6 wsgi.py &
+
+sudo nohup /home/salih/.virtualenvs/tweet-ws/bin/python3.6 -u wsgi.py &
+
+curl -H "Content-Type: application/json" --data '{"tweet":"slm ne haber","key":"ino150217"}'  104.197.160.23/twitter
+
+curl -H "Content-Type: application/json" --data '{"text":"senin taa geçmişini s..","key":"2167476"}'  http://95.183.140.57:8080/profanity_check

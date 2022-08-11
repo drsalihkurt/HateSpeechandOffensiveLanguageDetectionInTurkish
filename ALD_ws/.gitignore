@@ -1,0 +1,14 @@
+model/
+__pycache__/
+*.log
+.idea/
+*.xml
+*.iml
+*.hdf5
+*.png
+*.h5
+*.7z
+*.txt
+*.key
+*.csv
+*.notes

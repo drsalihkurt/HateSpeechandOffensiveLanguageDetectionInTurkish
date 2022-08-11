@@ -1,0 +1,69 @@
+<div class="row">
+  <div  style="margin:auto;width: 800px;">
+    <div class="card my-5" style="border-radius: 1rem;">
+      <div class="card-body" >
+<!--        <h5 class="card-title text-center">Please write your text!</h5>-->
+        <div>
+<!--          <spinner style="position: static;" color="primary"></spinner>-->
+<!--          <spinner display="inline"></spinner>-->
+        </div>
+        <textarea class="form-control"
+                  rows="3"
+                  [(ngModel)]="inputText"
+                  placeholder="Please write your text">
+        </textarea>
+        <button style="margin-top: 20px"
+                class="btn btn-primary btn-block form-control"
+                type="submit"
+                (click)="ShowResult()"
+        >Check</button>
+
+        <div *ngIf="!hideResult" style="margin-top: 20px;">
+          <table class="table table-striped table-bordered">
+            <thead>
+            <tr>
+              <th colspan="3">Query Result</th>
+            </tr>
+            <tr>
+              <th>Text</th>
+              <th>Result</th>
+              <th>Probs</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td style="color: red;">{{result.text}}</td>
+              <td style="color: red;">{{result.profanity}}</td>
+              <td style="color: red; font-size: 14px;">{{result.output}}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div *ngIf="hideResult" style="margin-top: 120px;">
+          <hr style="border: 2px solid black; border-radius: 5px;">
+          <table class="table table-striped table-bordered">
+            <thead>
+            <tr>
+              <th colspan="3">Previous Queries</th>
+            </tr>
+            <tr>
+              <th>Text</th>
+              <th>Result</th>
+              <th>Probs</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let query of queries.slice().reverse()">
+              <td>{{query.text}}</td>
+              <td>{{query.profanity}}</td>
+              <td style="font-size: 14px;">{{query.output}}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
