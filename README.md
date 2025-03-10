@@ -18,6 +18,6 @@ Makalede oluşturulma süreci ile ilgili ayrıntılı bilgileri verilen Veri Set
   * Hakaret ve Nefret Söylemi Test Seti (Wikipedia - Negatif Örnekler - Otomatik Etiketlenmiş)_251K.pk
 
 Not: dosyalar pythonda pickle kütüphanesi kullanılarak kaydedilmiştir. Dosyaların yüklenmesi için python kod örneği:
-import pickle
-df = pickle.load(open("veri_seti_1.67M.pk",'rb'))
+  * import pickle
+  * df = pickle.load(open("veri_seti_1.67M.pk",'rb'))
 
