@@ -5,6 +5,8 @@ Bu sayfa Veri bilimi dergisinde yayınlanan "Türkçe Hakaret ve Nefret Söylemi
 
 [Makalenin linki:](https://dergipark.org.tr/en/download/article-file/3157944){:target="_blank" rel="noopener"}
 
+<a href="https://dergipark.org.tr/en/download/article-file/3157944" target="_blank">Makalenin linki:</a>
+
 [Veri Setinin linki:](https://drive.google.com/drive/folders/1uF_BxmCP6X29hJXapUCbaW65UGYvn09_?usp=sharing){:target="_blank" rel="noopener"}
 
 Makalede oluşturulma süreci ile ilgili ayrıntılı bilgileri verilen Veri Seti Google Drive içerisinde paylaşılmıştır.
