@@ -1,10 +1,24 @@
 # HateSpeechandOffensiveLanguageDetectionInTurkish
-Türkçe Hakaret ve Nefret Söylemi Tespiti (Hate Speech and Offensive Language Detection In Turkish)
+Türkçe Hakaret ve Nefret Söylemi Otomatik Tespit Modeli (Offensive Language and Hate Speech Detection in Turkish)
 
-Sosyal medya platformlarının günden güne büyümesi kullanıcılar tarafından oluşturulan içeriğin de artmasına neden olmaktadır.
-Araştırmalar, siber nefretin, çevrimiçi tacizin ve sosyal medyada saldırgan dil kullanımının arttığını göstermektedir. 
-Sosyal medya platformlarında saldırgan bir dilin varlığı ve bunun doğurduğu sonuçlar, modern toplumda büyük bir endişe haline gelmektedir. Her gün oluşturulan muazzam miktarda içerik göz önüne alındığında, bu tür içerikleri tespit etmek ve bunlarla başa çıkmak için otomatik yöntemler çok önem kazanmaktadır. Bu problem çok dilli olmasına rağmen, şimdiye kadarki araştırmaların çoğu problemi İngilizce dili için çözmeye odaklanmıştır.
+Bu sayfa Veri bilimi dergisinde yayınlanan "Türkçe Hakaret ve Nefret Söylemi Otomatik Tespit Modeli" makalesi ile ilgili kodlamaları ve veri setlerini içermektedir.
+Makalenin linki:
+https://dergipark.org.tr/en/download/article-file/3157944
 
-Bu tezde, Türkçe'deki hakaret içeren ifadelerin ve nefret söylemlerinin otomatik tespiti için çözümlemeler önerilmiştir. Tarihi ve kültürel çeşitlilikler açısından zengin bir dil olan Türkçe'de bahsi geçen konuda kısıtlı kaynakların ve çalışmaların olması sorunun çözümünü güçleştirse de bu zorlu görevin üstesinden gelebilmek için kullanılabilecek veri kümeleri ve uygun makine öğrenme modelleri üzerine detaylı araştırmalar gerçekleştirilmiştir. 
+Veri Setinin linki:
+https://drive.google.com/drive/folders/1uF_BxmCP6X29hJXapUCbaW65UGYvn09_?usp=sharing
 
-Çeşitli kaynaklardan elde edilen veriler kullanılarak Türkçe dilinde şu ana kadar en kapsamlı veri seti olan Hakaret ve Nefret Söylemi (HavNeS) veri seti oluşturulmuş ve araştırmacıların hizmetine sunulmuştur. Sözkonusu veri seti kullanılarak yapay zeka modelleri geliştirilmek için birçok makine öğrenme yaklaşımı test edilmiştir. Sözkonusu veri seti kullanılarak yapay zeka modelleri geliştirilmek için birçok makine öğrenme yaklaşımı test edilmiştir. Günümüzde doğal dil işleme alanında en iyi metin sınıflandırma performansı gösteren Dönüştürücülerden Çift Yönlü Kodlayıcı Gösterimleri (BERT) modellerinin ve ince ayar tekniklerinin kullanımı ile oluşturulmuştur.
+Makalede oluşturulma süreci ile ilgili ayrıntılı bilgileri verilen Veri Seti Google Drive içerisinde paylaşılmıştır.
+
+Hakaret ve Nefret Söylemi Eğitim Seti Otomatik Etiketlenmiş
+- Hakaret ve Nefret Söylemi Eğitim Seti (Twitter - Pozitif Örnekler - Otomatik Etiketlenmiş)_1.67M.pk
+- Hakaret ve Nefret Söylemi Eğitim Seti (Wikipedia - Negatif Örnekler - Otomatik Etiketlenmiş)_2.51M.pk
+  
+Hakaret ve Nefret Söylemi Test Seti Otomatik Etiketlenmiş
+- Hakaret ve Nefret Söylemi Test Seti (Twitter - Pozitif Örnekler - Otomatik Etiketlenmiş)_134K.pk
+- Hakaret ve Nefret Söylemi Test Seti (Wikipedia - Negatif Örnekler - Otomatik Etiketlenmiş)_251K.pk
+
+Not: dosyalar pythonda pickle kütüphanesi kullanılarak kaydedilmiştir. Dosyaların yüklenmesi için python kod örneği:
+import pickle
+df = pickle.load(open("veri_seti_1.67M.pk",'rb'))
+
