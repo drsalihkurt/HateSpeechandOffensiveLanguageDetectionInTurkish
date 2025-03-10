@@ -3,9 +3,9 @@ Türkçe Hakaret ve Nefret Söylemi Otomatik Tespit Modeli (Offensive Language a
 
 Bu sayfa Veri bilimi dergisinde yayınlanan "Türkçe Hakaret ve Nefret Söylemi Otomatik Tespit Modeli" makalesi ile ilgili kodlamaları ve veri setlerini içermektedir.
 
-[Makalenin linki:](https://dergipark.org.tr/en/download/article-file/3157944)
+[Makalenin linki:](https://dergipark.org.tr/en/download/article-file/3157944){:target="_blank"}
 
-[Veri Setinin linki:](https://drive.google.com/drive/folders/1uF_BxmCP6X29hJXapUCbaW65UGYvn09_?usp=sharing)
+[Veri Setinin linki:](https://drive.google.com/drive/folders/1uF_BxmCP6X29hJXapUCbaW65UGYvn09_?usp=sharing){:target="_blank"}
 
 Makalede oluşturulma süreci ile ilgili ayrıntılı bilgileri verilen Veri Seti Google Drive içerisinde paylaşılmıştır.
 
